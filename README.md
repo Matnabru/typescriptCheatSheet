@@ -3,40 +3,45 @@ Typescript Cheat Sheet inspired by Traversy Media
 Link  to TS Crash Course :
 https://www.youtube.com/watch?v=rAy_3SIqT-E&t=445s
 
-        PERSONAL NOTES
-------------------------------------
-        COMMAND LINE
+PERSONAL NOTES
+---
 TS incremental compilation
+--------------------
     tsc (filename) -w
-------------------------------------
-        TS TYPES
 
-
-- String
+String
+---
     let var: string;
 
-- Number
+Number
+---
     let var: number;
-- Boolean
+Boolean
+---
     let var: boolean;
 
-- Array
+Array
+---
     let arr : Array<type>;
     let arr: type[];
 
-- Any
+Any
+---
     let var: any;
 
-- Void
+Void
+---
     let var: void;
     
-- Null (void, null and undefined behave similarly)
+Null (void, null and undefined behave similarly)
+---
     let var: null;
 
-- Tuple
+Tuple
+---
     let strNumTuple: [string,number];
     strNumTuple = ["Word", 10];
 
-- Enum
+Enum
 
-- Generics
+Generics
