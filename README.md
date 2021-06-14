@@ -44,4 +44,3 @@ Tuple
 
 Enum
 
-Generics
